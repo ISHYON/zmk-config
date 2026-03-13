@@ -5,8 +5,8 @@
 #include <dt-bindings/zmk/backlight.h>
 
 //#define ANSI
-#define ISO
-//#define ALL_1U
+//#define ISO
+#define ALL_1U
 //#define HHKB
 
 / {
