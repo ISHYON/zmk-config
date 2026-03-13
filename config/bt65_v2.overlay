@@ -1,0 +1,9 @@
+/* Import your custom layout definition */
+#include "my_keyboard-layouts.dtsi"
+
+/ {
+    chosen {
+        /* This overrides the default BT65 layout with yours */
+        zmk,physical-layout = &physical_layout0; 
+    };
+};
